@@ -1,0 +1,25 @@
+.text-mybody{
+   font-family: "Arial";
+   font-size: 11pt;
+   color: #aaaaaa;
+   line-height:1.6;
+   text-spacing: 1.5;
+   text-align: justify
+}
+
+.toma{
+    color: #ff6347;
+}
+
+.foot-text{
+   font-family: "Arial";
+   font-size: 12pt;
+   color: #020202;
+   line-height:1.6;
+   text-spacing: 1.5;
+   text-align: justify
+}
+
+.decor{
+    text-decoration: "none"
+}
