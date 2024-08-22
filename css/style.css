@@ -21,5 +21,14 @@
 }
 
 .decor{
-    text-decoration: "none"
+    text-decoration: "none";
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.navLH:hover{
+    color: blue;
 }

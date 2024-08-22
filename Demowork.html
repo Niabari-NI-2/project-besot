@@ -12,61 +12,66 @@
     <title>Besot DevConsult Services Ltd</title>
   </head>
   <body>
-    <nav id="home" class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top shadow">
+    <nav id="home" class="navbar navbar-expand-md bg-danger navbar-dark fixed-top shadow">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">
-          <img src="img/besot_logo.jpg" alt="Logo" style="width:50px;">
-        </a>
-      </div>
-      <div class="container-fluid justify-content-end">
-        <ul class="navbar-nav nav nav-pills nav-justified">
-          <li class="nav-item">
-            <a class="nav-link" href="#About-Us">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#previous-project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-us">Contact Us</a>
-          </li>
-        </ul>
+        <a class="navbar-brand" href="#"><img src="img/besot_logo.jpg" alt="Logo" width="35px" height="35px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCps" aria-controls="navCps" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navCps">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link navLH me-4" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLH me-4" href="#About-Us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLH me-4" href="#previous-project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLH me-4" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-      </div>
+    <div id="#Home">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
 
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/Enugu State Community Mobilisation.jpg" alt="Enugu State Community Mobilisation" class="d-block" style="width:100%">
-          <div class="carousel-caption">
-            <h3>Enugu State Community Mobilisation</h3>
-            <p></p>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Enugu State Community Mobilisation.jpg" alt="Enugu State Community Mobilisation" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h3>Enugu State Community Mobilisation</h3>
+            </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/FCT Community baseline Survey training.jpg" alt="FCT Community baseline Survey training" class="d-block" style="width:100%">
-          <div class="carousel-caption">
-            <h3>FCT Community baseline Survey training</h3>
+          <div class="carousel-item">
+            <img src="img/FCT Community baseline Survey training.jpg" alt="FCT Community baseline Survey training" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h3>FCT Community baseline Survey training</h3>
+            </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/Kogi State SCPZ PEA.JPG" alt="Consulting Pic" class="d-block" style="width:100%">
-          <div class="carousel-caption">
-            <h3>Kogi State SCPZ PEA</h3>
+          <div class="carousel-item">
+            <img src="img/Kogi State SCPZ PEA.JPG" alt="Consulting Pic" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h3>Kogi State SCPZ PEA</h3>
+            </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/Social Inclusion Consultation.JPG" alt="Consulting Pic" class="d-block" style="width:100%">
-          <div class="carousel-caption">
-            <h3>Social Inclusion Consultation</h3>
+          <div class="carousel-item">
+            <img src="img/Social Inclusion Consultation.JPG" alt="Consulting Pic" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h3>Social Inclusion Consultation</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -85,7 +90,7 @@
       <div class="row">
         <div class="col-md">
           <div id="image">
-            <img class="pic1" src="img/besot_logo.jpg" alt="image log" style="width:300px"/>
+            <img class="img-fluid" src="img/besot_logo.jpg" alt="image log" style="width:300px"/>
             <div class="display-6"><p>Besot DevConsult Services Ltd</p></div>
             <div><h4>Development Consulting & Services</h4></div>
           </div>
@@ -110,7 +115,7 @@
       </div>
 
       <div class="row">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
           <div id="acc1">
             <div class="card shadow-lg mb-4">
               <div class="card-header">
@@ -213,8 +218,8 @@
           </div>
         </div>
 
-        <div class="col-6">
-          <img src="img/Besot_FCTA.png" alt="Development Planning Workshop with Key Officers from FCTA" style="width:750px">
+        <div class="col-md-6 col-sm-12">
+          <img class="img-fluid" src="img/Besot_FCTA.jpg" alt="Development Planning Workshop with Key Officers from FCTA" >
         </div>
       </div>
     </div>
@@ -224,10 +229,10 @@
     <div class="container-fluid mt-3 bg-light shadow" id="previous-project">
       <div class="display-6"><p class="text-danger">SOME PROJECTS CARRIED OUT</p></div>
       <div class="row">
-        <div class="col">
-          <img src="img/Kaduna Community Leaders ConsultationPEA.JPG" alt="Kaduna Community Leaders ConsultationPEA" style="width:800px">
+        <div class="col-md-6 col-sm-12">
+          <img class="mb-3 img-fluid" src="img/Kaduna Community Leaders ConsultationPEA.JPG" alt="Kaduna Community Leaders ConsultationPEA">
         </div>
-        <div class="col">
+        <div class="col-md-6 col-sm-12">
           <div id="acco">
             <div class="card shadow-lg mb-4">
               <div class="card-header bg-dark">
